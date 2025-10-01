@@ -50,6 +50,7 @@ jobs:
       run:  |
         pip install pip-audit
         pip-audit
+
     - name: Upload coverage to Codacy
       run: |
         pip install codacy-coverage
